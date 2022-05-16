@@ -10,6 +10,15 @@
 		7530CAAC28227B7100A1C0EC /* StringCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7530CA9E28227B5500A1C0EC /* StringCalculatorTest.swift */; };
 		7530CAB428227C0700A1C0EC /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7530CAB328227C0700A1C0EC /* StringCalculator.swift */; };
 		7530CAB528227C0900A1C0EC /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7530CAB328227C0700A1C0EC /* StringCalculator.swift */; };
+		754A7CD12829E12400F4E7E4 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A7CD02829E12400F4E7E4 /* InputView.swift */; };
+		754A7CD32829E12A00F4E7E4 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A7CD22829E12A00F4E7E4 /* ResultView.swift */; };
+		754C31D52832221500BD4195 /* RacingCarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C31D42832221500BD4195 /* RacingCarTest.swift */; };
+		754C31DD283225CB00BD4195 /* RacingCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EC952282C9D99002941C9 /* RacingCondition.swift */; };
+		754C31DE283225D900BD4195 /* RacingCarError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EC954282C9EC9002941C9 /* RacingCarError.swift */; };
+		755EC94F282C9523002941C9 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EC94E282C9523002941C9 /* Car.swift */; };
+		755EC951282C9A92002941C9 /* Racing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EC950282C9A92002941C9 /* Racing.swift */; };
+		755EC953282C9D99002941C9 /* RacingCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EC952282C9D99002941C9 /* RacingCondition.swift */; };
+		755EC955282C9EC9002941C9 /* RacingCarError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EC954282C9EC9002941C9 /* RacingCarError.swift */; };
 		75B7AA43281811EC002E6B8B /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7AA42281811EC002E6B8B /* StringTests.swift */; };
 		75B7AA4928181237002E6B8B /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7AA4828181237002E6B8B /* SetTests.swift */; };
 		C7E1263027239F7E0000DB8B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E1262F27239F7E0000DB8B /* main.swift */; };
@@ -32,6 +41,15 @@
 		7530CA9E28227B5500A1C0EC /* StringCalculatorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculatorTest.swift; sourceTree = "<group>"; };
 		7530CAA428227B6900A1C0EC /* StringCalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringCalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7530CAB328227C0700A1C0EC /* StringCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
+		754A7CD02829E12400F4E7E4 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		754A7CD22829E12A00F4E7E4 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		754C31D22832221500BD4195 /* RacingCarTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacingCarTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		754C31D42832221500BD4195 /* RacingCarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarTest.swift; sourceTree = "<group>"; };
+		754C31D62832221500BD4195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755EC94E282C9523002941C9 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		755EC950282C9A92002941C9 /* Racing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing.swift; sourceTree = "<group>"; };
+		755EC952282C9D99002941C9 /* RacingCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCondition.swift; sourceTree = "<group>"; };
+		755EC954282C9EC9002941C9 /* RacingCarError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarError.swift; sourceTree = "<group>"; };
 		75B7AA40281811EC002E6B8B /* LearningTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B7AA42281811EC002E6B8B /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		75B7AA4828181237002E6B8B /* SetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTests.swift; sourceTree = "<group>"; };
@@ -42,6 +60,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		7530CAA128227B6900A1C0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754C31CF2832221500BD4195 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,6 +99,32 @@
 			path = StringCalculator;
 			sourceTree = "<group>";
 		};
+		754A7CCF2829E11700F4E7E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				754A7CD02829E12400F4E7E4 /* InputView.swift */,
+				754A7CD22829E12A00F4E7E4 /* ResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		754C31D32832221500BD4195 /* RacingCarTest */ = {
+			isa = PBXGroup;
+			children = (
+				754C31D42832221500BD4195 /* RacingCarTest.swift */,
+				754C31D62832221500BD4195 /* Info.plist */,
+			);
+			path = RacingCarTest;
+			sourceTree = "<group>";
+		};
+		755EC94D282C9519002941C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				755EC94E282C9523002941C9 /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		75B7AA41281811EC002E6B8B /* LearningTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +140,7 @@
 				C7E1262E27239F7E0000DB8B /* RacingCar */,
 				75B7AA41281811EC002E6B8B /* LearningTest */,
 				7530CAA528227B6900A1C0EC /* StringCalculator */,
+				754C31D32832221500BD4195 /* RacingCarTest */,
 				C7E1262D27239F7E0000DB8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +151,7 @@
 				C7E1262C27239F7E0000DB8B /* RacingCar */,
 				75B7AA40281811EC002E6B8B /* LearningTest.xctest */,
 				7530CAA428227B6900A1C0EC /* StringCalculator.xctest */,
+				754C31D22832221500BD4195 /* RacingCarTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +159,11 @@
 		C7E1262E27239F7E0000DB8B /* RacingCar */ = {
 			isa = PBXGroup;
 			children = (
+				755EC94D282C9519002941C9 /* Model */,
+				754A7CCF2829E11700F4E7E4 /* View */,
+				755EC950282C9A92002941C9 /* Racing.swift */,
+				755EC954282C9EC9002941C9 /* RacingCarError.swift */,
+				755EC952282C9D99002941C9 /* RacingCondition.swift */,
 				C7E1262F27239F7E0000DB8B /* main.swift */,
 				F981FA2428269B860000A531 /* Info.plist */,
 			);
@@ -130,6 +188,23 @@
 			name = StringCalculator;
 			productName = StringCalculator;
 			productReference = 7530CAA428227B6900A1C0EC /* StringCalculator.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		754C31D12832221500BD4195 /* RacingCarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754C31D72832221500BD4195 /* Build configuration list for PBXNativeTarget "RacingCarTest" */;
+			buildPhases = (
+				754C31CE2832221500BD4195 /* Sources */,
+				754C31CF2832221500BD4195 /* Frameworks */,
+				754C31D02832221500BD4195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RacingCarTest;
+			productName = RacingCarTest;
+			productReference = 754C31D22832221500BD4195 /* RacingCarTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		75B7AA3F281811EC002E6B8B /* LearningTest */ = {
@@ -179,6 +254,9 @@
 					7530CAA328227B6900A1C0EC = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					754C31D12832221500BD4195 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					75B7AA3F281811EC002E6B8B = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -203,6 +281,7 @@
 				C7E1262B27239F7E0000DB8B /* RacingCar */,
 				75B7AA3F281811EC002E6B8B /* LearningTest */,
 				7530CAA328227B6900A1C0EC /* StringCalculator */,
+				754C31D12832221500BD4195 /* RacingCarTest */,
 			);
 		};
 /* End PBXProject section */
@@ -213,6 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F981FA2528269B860000A531 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754C31D02832221500BD4195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +321,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		754C31CE2832221500BD4195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754C31D52832221500BD4195 /* RacingCarTest.swift in Sources */,
+				754C31DD283225CB00BD4195 /* RacingCondition.swift in Sources */,
+				754C31DE283225D900BD4195 /* RacingCarError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75B7AA3C281811EC002E6B8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +344,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754A7CD12829E12400F4E7E4 /* InputView.swift in Sources */,
+				755EC951282C9A92002941C9 /* Racing.swift in Sources */,
+				755EC953282C9D99002941C9 /* RacingCondition.swift in Sources */,
+				755EC955282C9EC9002941C9 /* RacingCarError.swift in Sources */,
+				754A7CD32829E12A00F4E7E4 /* ResultView.swift in Sources */,
+				755EC94F282C9523002941C9 /* Car.swift in Sources */,
 				7530CAB528227C0900A1C0EC /* StringCalculator.swift in Sources */,
 				C7E1263027239F7E0000DB8B /* main.swift in Sources */,
 			);
@@ -291,6 +393,46 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hakyung.StringCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		754C31D82832221500BD4195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RacingCarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakyung.RacingCarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		754C31D92832221500BD4195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RacingCarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakyung.RacingCarTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -481,6 +623,15 @@
 			buildConfigurations = (
 				7530CAAA28227B6900A1C0EC /* Debug */,
 				7530CAAB28227B6900A1C0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		754C31D72832221500BD4195 /* Build configuration list for PBXNativeTarget "RacingCarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754C31D82832221500BD4195 /* Debug */,
+				754C31D92832221500BD4195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
